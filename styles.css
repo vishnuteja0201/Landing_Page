@@ -1,0 +1,109 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #8696FE;
+}
+
+header {
+    background-color:#11009E;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+
+#hero {
+    background-color:#7d7aba;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.destination {
+    margin-bottom: 30px;
+}
+
+.destination img {
+    width: 70%;
+    max-height: 600;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.destination h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.destination p {
+    margin-bottom: 10px;
+}
+
+#tips ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+#contact form input, #contact form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#contact form textarea {
+    height: 150px;
+}
+
+#contact form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

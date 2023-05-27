@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Travel VB3S</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#tips">Travel Tips</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Explore. Discover. VB3S.</h2>
+        <p>Welcome to Travel VB3S, your gateway to amazing adventures around the world. Get inspired, plan your next trip, and share your experiences with fellow travel enthusiasts.</p>
+        <a href="#destinations" class="btn">Explore Destinations</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Travel VB3S is a passionate community of globetrotters who believe that travel is the ultimate source of growth and inspiration. We share our personal experiences, travel guides, tips, and recommendations to help you make the most of your journeys.</p>
+    </section>
+
+    <section id="destinations" >
+        <h2>Popular Destinations</h2>
+        <div class="destination">
+            <img src="paris.jpeg" alt="Destination 1">
+            <h3>City of Lights</h3>
+            <p>Discover the charm of Paris with its iconic landmarks, vibrant culture, and mouthwatering cuisine.</p>
+            <a href="blogpost1.html">Read More</a>
+        </div>
+        <div class="destination">
+            <img src="beach.jpeg" alt="Destination 2">
+            <h3>Tropical Paradise</h3>
+            <p>Escape to the pristine beaches and turquoise waters of the Maldives for the ultimate relaxation.</p>
+            <a href="blogpost2.html">Read More</a>
+        </div>
+        <div class="destination">
+            <img src="kyoto.jpeg" alt="Destination 3">
+            <h3>Cultural Gem</h3>
+            <p>Immerse yourself in the rich history and traditions of Kyoto, Japan, as you explore its temples and gardens.</p>
+            <a href="blogpost3.html">Read More</a>
+        </div>
+    </section>
+
+    <section id="tips">
+        <h2>Travel Tips</h2>
+        <ul>
+            <li>How to Pack Light and Efficiently</li>
+            <li>Top 10 Must-Visit Landmarks</li>
+            <li>Staying Safe While Traveling Alone</li>
+            <li>Exploring Local Cuisines</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Travel VB3S. All rights reserved.</p>
+    </footer>
+</body>
+</html>
